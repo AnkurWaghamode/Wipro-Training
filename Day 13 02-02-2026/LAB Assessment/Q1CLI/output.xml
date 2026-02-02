@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2026-02-02T17:51:37.487819" rpa="false" schemaversion="5">
+<suite id="s1" name="CLI" source="C:\Users\User\WiproTraining\Wipro-Training\RobotFW\2ndFebQ\CLI.robot">
+<kw name="Suite Initialization" type="SETUP">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T17:51:37.555001" level="INFO">Suite Setup: Executed before all test cases</msg>
+<arg>Suite Setup: Executed before all test cases</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T17:51:37.554717" elapsed="0.000346"/>
+</kw>
+<status status="PASS" start="2026-02-02T17:51:37.553565" elapsed="0.002076"/>
+</kw>
+<test id="s1-t1" name="Sample Tagged Test" line="8">
+<kw name="Test Initialization" type="SETUP">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T17:51:37.557228" level="INFO">Test Setup: Executed before each test case</msg>
+<arg>Test Setup: Executed before each test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T17:51:37.556984" elapsed="0.000308"/>
+</kw>
+<status status="PASS" start="2026-02-02T17:51:37.556728" elapsed="0.000621"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T17:51:37.558279" level="INFO">This is a tagged test case</msg>
+<arg>This is a tagged test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T17:51:37.557850" elapsed="0.000511"/>
+</kw>
+<kw name="Test Cleanup" type="TEARDOWN">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T17:51:37.559177" level="INFO">Test Teardown: Executed after each test case</msg>
+<arg>Test Teardown: Executed after each test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T17:51:37.558984" elapsed="0.000233"/>
+</kw>
+<status status="PASS" start="2026-02-02T17:51:37.558766" elapsed="0.000498"/>
+</kw>
+<tag>smoke</tag>
+<status status="PASS" start="2026-02-02T17:51:37.555814" elapsed="0.003725"/>
+</test>
+<test id="s1-t2" name="Another Test Case" line="12">
+<kw name="Test Initialization" type="SETUP">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T17:51:37.561964" level="INFO">Test Setup: Executed before each test case</msg>
+<arg>Test Setup: Executed before each test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T17:51:37.561456" elapsed="0.000622"/>
+</kw>
+<status status="PASS" start="2026-02-02T17:51:37.561037" elapsed="0.001173"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T17:51:37.563225" level="INFO">This is a normal test case</msg>
+<arg>This is a normal test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T17:51:37.562777" elapsed="0.000542"/>
+</kw>
+<kw name="Test Cleanup" type="TEARDOWN">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T17:51:37.564454" level="INFO">Test Teardown: Executed after each test case</msg>
+<arg>Test Teardown: Executed after each test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T17:51:37.564221" elapsed="0.000279"/>
+</kw>
+<status status="PASS" start="2026-02-02T17:51:37.563947" elapsed="0.000611"/>
+</kw>
+<status status="PASS" start="2026-02-02T17:51:37.560432" elapsed="0.004416"/>
+</test>
+<kw name="Suite Cleanup" type="TEARDOWN">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-02T17:51:37.566444" level="INFO">Suite Teardown: Executed after all test cases</msg>
+<arg>Suite Teardown: Executed after all test cases</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-02T17:51:37.566238" elapsed="0.000269"/>
+</kw>
+<status status="PASS" start="2026-02-02T17:51:37.566053" elapsed="0.000504"/>
+</kw>
+<status status="PASS" start="2026-02-02T17:51:37.489655" elapsed="0.076924"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">smoke</stat>
+</tag>
+<suite>
+<stat name="CLI" id="s1" pass="2" fail="0" skip="0">CLI</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
